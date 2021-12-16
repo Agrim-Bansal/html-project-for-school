@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <title> Html Form </title>
+</head>
+
+<body>
+  <h1>This page Uses a Form and shows its aplication</h1>
+  <hr />
+
+  <h2>Hotel Feedback form </h2>
+  <form action="./feedback.html" method="post">
+    
+      Name:<input type="text" name="name"> <br/><br />
+    
+      Email:<input type="text" name="email" /> <br/><br />
+    
+      Rating:
+      <input type="radio" name="rating" value="1">1
+      <input type="radio" name="rating" value="2">2
+      <input type="radio" name="rating" value="3">3
+      <input type="radio" name="rating" value="4">4
+      <input type="radio" name="rating" value="5">5<br>
+    
+      Would you recommend this hotel to a friend? <input type="checkbox" name="recommend" value="yes"> <br>
+      Would you like a newsletter? <input type="checkbox" name="newsletter" value="yes"> <br><br> <br/><br />
+    
+      Feedback:<textarea name="feedback" rows="5" cols="50"></textarea> <br/><br />
+    
+      <input type="submit" name="submit" value="Submit" />
+      <input type="reset" name="reset" value="Reset" /> <br/><br />
+
+  </form>
+</body>
+
+</html>
